@@ -4,9 +4,9 @@
 
 - CPNT-262 Achievement8-Async Fetch Nuxt
 
-- GitHub Repo :
+- [GitHub Repo](https://github.com/Mahalakshmi-24/cpnt262-asyncfetch)
 
-- Netlify
+- [Netlify](https://fancy-trifle-9172c4.netlify.app/)
 
 ## Code Journal
 
@@ -30,7 +30,7 @@
 
 - Ashlyn
 
-- ![Pexels](https://www.pexels.com/)
+- [Pexels](https://www.pexels.com/)
 
 # Nuxt 3 Minimal Starter
 
