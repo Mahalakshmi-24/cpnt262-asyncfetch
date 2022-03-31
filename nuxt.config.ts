@@ -3,8 +3,8 @@ import { defineNuxtConfig } from "nuxt3";
 export default defineNuxtConfig({
 
   
-  
+  components: ["~/components"],
   buildModules: [
-    ["@storyblok/nuxt", { accessToken: "3lMhuza7E6s5kpnWAX3NzAtt" }],
+    ["@storyblok/nuxt", { accessToken: "HdPe8scvyg1Q8xhQ5ZkkQQtt" }],
   ]
 });
