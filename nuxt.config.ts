@@ -5,6 +5,6 @@ export default defineNuxtConfig({
   
   components: ["~/components"],
   buildModules: [
-    ["@storyblok/nuxt", { accessToken: "HdPe8scvyg1Q8xhQ5ZkkQQtt" }],
+    ["@storyblok/nuxt", { accessToken: "o76LGclxGJN6V1DyMwcKLQtt" }],
   ]
 });

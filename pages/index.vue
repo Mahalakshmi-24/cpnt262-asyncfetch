@@ -4,19 +4,22 @@
 
     <h1>Content from Storyblok</h1>
      <h2>{{pageContent.name}}</h2>
-     <p>{{pageContent.created_at}}</p>
+     <p>Created_at: {{pageContent.created_at}}</p>
 
-       <div>
+     <!--  <div>
       <pre> {{pageContent}}</pre>
       </div>
+     --> 
   </section>
 
-  <section>
-     <h2>components</h2>
-     <Teaser :blok = "components[0]" />
-
+ <section>
+     <h2>Components</h2>
+     <TheHeader :blok = "components[0]" />  
    </section>
-  
+
+   <section>
+   <TheContent :blok = "components[1]" />
+  </section>
  </div>
 </template>
 
@@ -28,9 +31,14 @@ const { data : home } = await storyapi.get("cdn/stories/home",
 const state = reactive({ story: home.story });
 const pageContent =state.story;
 
-const components = state.story.content.body;
+const components = state.story.content.Navigation;
 
-console.log(components);
+//This loops prints components inside Navigation
+
+//components.forEach((x) => {
+
+//console.log(x.component);
+//});
 
 
 </script>
